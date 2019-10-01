@@ -1,0 +1,37 @@
+.hero {
+  /* Sizing */
+  height: 100vh;
+  width: 100vw;
+
+  /* Flex box */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* Text styles */
+  /* add font later */
+  text-align: center;
+
+  /* Background image */
+  background-image: url("../image-assets/hero-plant.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.title-box {
+  margin-bottom: 0.5em;
+}
+
+.page-title, .page-desc {
+  color: white;
+  
+}
+
+.title-box .page-title {
+  font-size: 5em;
+}
+
+.desc-box .page-desc {
+  font-size: 2em;
+}
