@@ -1,11 +1,11 @@
 .mission {
-  width: 100%;
-}
-
-.mission-box {
   width: 80%;
   margin: auto;
   text-align: center;
+}
+
+.mission-box {
+  width: 100%;
 }
 
 .mission-title {

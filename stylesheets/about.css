@@ -1,0 +1,23 @@
+.about-item > img {
+  width: 200px;
+}
+
+/* Need clear fix to fix img overflowing out the container */
+/* Clearfix  */
+.about-item.left > img {
+  float: left;
+  clear: left;
+}
+
+.about-item.right > img {
+  float: right;
+  clear: right;
+}
+
+/* Safer to use than overflow: auto */
+.clearfix::after {
+  /* Older browsers does not support empty content however */
+  content: ""; 
+  clear: both;
+  display: table;
+}
