@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="/stylesheets/hero.css">
     <link rel="stylesheet" href="/stylesheets/mission.css">
     <link rel="stylesheet" href="/stylesheets/about.css">
+    <link rel="stylesheet" href="/stylesheets/tablinks.css">
   </head>
   <body>
     <section class="hero">
@@ -26,7 +27,14 @@
 
     <main>
       <!-- Tab links -->
-
+      <div class="tab-links">
+        <div class="tab-link-box">
+          <button class="tab-link" onclick="show(event, 'mission')">Our Goal</button>
+        </div>
+        <div class="tab-link-box">
+          <button class="tab-link" onclick="show(event, 'about')">About Us</button>
+        </div>
+      </div>
       <!-- Tab content -->
       <section class="mission">
         <div class="mission-box">
@@ -50,9 +58,11 @@
           </ul>
           <div class="mission-footer">
             <div class="footer-desc">
+              <!-- this could be better if put in about us -->
               We are currently working with people in the Greater Los Angeles area of California, Baja California, Ensenada, and neighboring areas.
             </div>
             <div class="footer-desc">
+              <!-- so is this -->
               We have projects of food, clothing and toys for orphanages, as well as establishing senior centers for people who don’t have family or a place to live.
             </div>
           </div>
@@ -65,20 +75,21 @@
             About Us
           </div>
           <ul class="about-list">
-            <li class="about-item left clearfix">
+            <li class="about-item left">
               <img src="image-assets/hero-plant.jpeg">
               <p>For I was hungry, and you fed me. I was thirsty, and you gave me a drink. I was a stranger, and you invited me into your home. I was naked, and you gave me clothing. I was sick, and you cared for me. I was in prison, and you visited me.</p>
             </li>
-            <li class="about-item right clearfix">
+            <li class="about-item right">
               <img src="image-assets/hero-plant.jpeg">
               <p>Then these righteous ones will reply, ‘Lord, when did we ever see you hungry and feed you? Or thirsty and give you something to drink? Or a stranger and show you hospitality? Or naked and give you clothing? When did we ever see you sick or in prison and visit you?</p></li>
-            <li class="about-item left clearfix">
+            <li class="about-item left">
               <img src="image-assets/hero-plant.jpeg">
               <p>And the King will say, ‘I tell you the truth, when you did it to one of the least of these my brothers and sisters,you were doing it to me!’</p>
             </li>
           </ul>
         </div>
       </section>
+      <!-- Tab content end -->
     </main>
     <script src="javascript/index.js"></script>
   </body>

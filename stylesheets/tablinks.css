@@ -1,0 +1,24 @@
+.tab-links {
+  display: flex;
+  justify-content: space-around;
+  max-width: 80%;
+  margin: auto;
+}
+
+.tab-link-box {
+  width: 100%;
+  /* text-align: center; */
+}
+
+.tab-link-box > button {
+  display: flex;
+  justify-content: center;
+  border: none;
+  padding: 0px;
+  margin: auto;
+  /* change font and size */
+  font-weight: 100;
+  font-size: 40px;
+  cursor: pointer;
+  /* width: 80%; */
+}

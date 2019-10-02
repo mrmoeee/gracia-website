@@ -1,1 +1,3 @@
-console.log('Hello World');
+function show(event, tab) {
+  console.log(event, tab);
+}
