@@ -4,7 +4,7 @@ font-family: 'Roboto', sans-serif; */
 .about {
   margin: auto;
   text-align: center;
-  border: 1px solid blueviolet;
+  /* border: 1px solid blueviolet; */
   margin-top: 10px;
   padding: 10px;
   background: white;
@@ -12,20 +12,39 @@ font-family: 'Roboto', sans-serif; */
 
 .about-box {
   width: 100%;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .about-title {
   font-family: 'Roboto', sans-serif;
   font-size: 35px;
   font-weight: 100;
+  margin: 30px 0px;
+}
+
+.about-under {
+  border-bottom: 1px solid black;
+  text-decoration: none;
+}
+
+.about-sub {
+  padding: 10px 20px;
+}
+
+.about-item {
+  padding: 10px 20px;
 }
 
 .sub-desc {
   font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  margin-bottom: 10px;
+  line-height: 25px;
+  letter-spacing: 1px;
 }
 
 .about-item > img {
+  border-radius: 5px;
   width: 200px;
 }
 
@@ -41,17 +60,28 @@ font-family: 'Roboto', sans-serif; */
 
 .item-desc {
   font-family: 'Roboto', sans-serif;
+  font-size: 16px;
   display: flex;
   align-items: center;
+  padding: 10px;
+  line-height: 20px;
+  letter-spacing: 1px;
+}
+
+.about-excerpt {
+  font-family: 'Robot', sans-serif;
+  font-weight: 100;
+  margin: 40px;
 }
 
 .facebook-btn {
-  margin: 10px;
+  margin: 25px 0;
 }
 
 .sm-btn {
   text-decoration: none;
   font-family: 'Roboto', sans-serif;
+  font-size: 16px;
   color: black;
   padding: 10px;
   /* border: 1px solid black; */

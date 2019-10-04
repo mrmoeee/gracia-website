@@ -1,3 +1,5 @@
 function show(event, tab) {
-  console.log(event, tab);
+  let currentTab = tab;
+  event.preventDefault();
+  console.log(event.currentTarget);
 }
