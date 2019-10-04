@@ -1,6 +1,20 @@
 .about {
   width: 80%;
   margin: auto;
+  text-align: center;
+  border: 1px solid blueviolet;
+  margin-top: 10px;
+  padding: 10px;
+  background: white;
+}
+
+.about-box {
+  width: 100%;
+  border: 1px solid red;
+}
+
+.about-title {
+  font-size: 35px;
 }
 
 .about-item > img {
@@ -9,12 +23,25 @@
 
 .left {
   display: flex;
-  justify-content: center;
   flex-direction: row;
 }
 
 .right {
   display: flex;
-  justify-content: center;
   flex-direction: row-reverse;
+}
+
+.item-desc {
+  display: flex;
+  align-items: center;
+}
+
+.facebook-btn {
+  margin: 10px;
+}
+
+.sm-btn {
+  padding: 10px;
+  text-decoration: none;
+  border: 1px solid black;
 }

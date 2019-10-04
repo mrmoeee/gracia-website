@@ -1,0 +1,24 @@
+.gallery {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.gallery-title {
+  font-size: 40px;
+}
+
+.gallery-container {
+  display: grid;
+  grid-template-columns: 260px 260px 260px 260px;
+  grid-template-rows: 200px 200px 200px 200px;
+  background-color: #2196f3;
+  padding: 10px;
+  grid-gap: 10px;
+}
+
+.gallery-item {
+  border: 1px solid blue;
+  background-color: lightblue;
+  padding: 10px 0;
+}

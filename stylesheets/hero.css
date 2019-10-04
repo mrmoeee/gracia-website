@@ -18,6 +18,13 @@
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+
+  /* Round out the bottom */
+  /* Add animation for this part */
+  /* border-bottom-left-radius: 50% 20%;
+  border-bottom-right-radius: 50% 20%; */
+  /* this is super cool */
+  /* transition-duration: 1s, 2s, 3s, 1s; */
 }
 
 .title-box {
