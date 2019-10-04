@@ -1,11 +1,15 @@
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+
 .gallery {
-  width: 1024px;
-  margin: auto;
   text-align: center;
 }
 
 .gallery-title {
+  font-family: 'Roboto', sans-serif;
   font-size: 40px;
+  font-weight: 100;
 }
 
 .gallery-container {

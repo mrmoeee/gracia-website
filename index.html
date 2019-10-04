@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="/stylesheets/reset.css">
     <link rel="stylesheet" href="/stylesheets/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:600|Roboto:300&display=swap" rel="stylesheet">
     <!-- put all these extra css files into one index file when done developing -->
     <link rel="stylesheet" href="/stylesheets/hero.css">
     <link rel="stylesheet" href="/stylesheets/mission.css">
@@ -26,97 +27,105 @@
       </div>
     </section>
 
-    <main>
-      <!-- Tab links -->
-      <div class="tab-links">
-        <div class="tab-link-box">
-          <button class="tab-link" onclick="show(event, 'mission')">Our Goal</button>
-        </div>
-        <div class="tab-link-box">
-          <button class="tab-link" onclick="show(event, 'about')">About Us</button>
-        </div>
-      </div>
-      <!-- Tab content -->
-      <section class="mission tab-content">
-        <div class="mission-box">
-          <div class="mission-title">
-            Our goal is to grow and establish Gracia Redentora
-            not only in Mexico, but in all Latin America according to god's will
+    <div class="global-content">
+      <main role="main">
+        <!-- Tab links -->
+        <div class="tab-links">
+          <div class="tab-link-box">
+            <button class="tab-link" onclick="show(event, 'mission')">Our Goal</button>
           </div>
-          <ul class="mission-list">
-            <li class="mission-item">
-              <img src="image-assets/hero-plant.jpeg">
-              <p>God loves his creation, especially human beings, wanting not only spiritual restoration, but also establishing justice, so that all people will live in peace and with dignity. (Isaiah 1:17)</p>
-            </li>
-            <li class="mission-item">
-              <img src="image-assets/hero-plant.jpeg">
-              <p>Everyone has been created in God's own image, regardless of race, religion, color, culture, nationality, gender or age. (Genesis 1:26-27)</p>
-            </li>
-            <li class="mission-item">
-              <img src="image-assets/hero-plant.jpeg">
-              <p>Being obedient to God’s calling in which He encourages us not to become weary of doing good, we have been committed since 1986 with the poor and those in most need. (Galatians 6:9; II Thessalonians 3:13)</p>
-            </li>
-          </ul>
-          <div class="facebook-btn">
-            <a href="" class="sm-btn">Check out our Facebook Page</a>
+          <div class="tab-link-box">
+            <button class="tab-link" onclick="show(event, 'about')">About Us</button>
           </div>
         </div>
-      </section>
-
-      <section class="about tab-content">
-        <div class="about-box">
-          <div class="about-title">
-            About Us
-          </div>
-          <div class="about-sub">
-            <div class="sub-desc">
-              We are currently working with people in the Greater Los Angeles area of California, Baja California, Ensenada, and neighboring areas.
+        <!-- Tab content -->
+        <section class="mission tab-content">
+          <div class="mission-box">
+            <div class="mission-title">
+              Our goal is to grow and establish Gracia Redentora
+              not only in Mexico, but in all Latin America according to god's will
             </div>
-            <div class="sub-desc">
-              We have projects of food, clothing and toys for orphanages, as well as establishing senior centers for people who don’t have family or a place to live.
-            </div>
-          </div>
-          <ul class="about-list">
-            <li class="about-item left">
-              <img src="image-assets/hero-plant.jpeg">
-              <div class="item-desc">For I was hungry, and you fed me. I was thirsty, and you gave me a drink. I was a stranger, and you invited me into your home. I was naked, and you gave me clothing. I was sick, and you cared for me. I was in prison, and you visited me.</div>
-            </li>
-            <li class="about-item right">
-              <img src="image-assets/hero-plant.jpeg">
-              <div class="item-desc">Then these righteous ones will reply, ‘Lord, when did we ever see you hungry and feed you? Or thirsty and give you something to drink? Or a stranger and show you hospitality? Or naked and give you clothing? When did we ever see you sick or in prison and visit you?</div></li>
-            <li class="about-item left">
-              <img src="image-assets/hero-plant.jpeg">
-              <div class="item-desc">And the King will say, ‘I tell you the truth, when you did it to one of the least of these my brothers and sisters,you were doing it to me!’</div>
-            </li>
-          </ul>
-          <div class="facebook-btn">
+            <ul class="mission-list">
+              <li class="mission-item">
+                <img src="image-assets/hero-plant.jpeg">
+                <p>God loves his creation, especially human beings, wanting not only spiritual restoration, but also establishing justice, so that all people will live in peace and with dignity. (Isaiah 1:17)</p>
+              </li>
+              <li class="mission-item">
+                <img src="image-assets/hero-plant.jpeg">
+                <p>Everyone has been created in God's own image, regardless of race, religion, color, culture, nationality, gender or age. (Genesis 1:26-27)</p>
+              </li>
+              <li class="mission-item">
+                <img src="image-assets/hero-plant.jpeg">
+                <p>Being obedient to God’s calling in which He encourages us not to become weary of doing good, we have been committed since 1986 with the poor and those in most need. (Galatians 6:9; II Thessalonians 3:13)</p>
+              </li>
+            </ul>
+            <div class="facebook-btn">
               <a href="" class="sm-btn">Check out our Facebook Page</a>
             </div>
-        </div>
-      </section>
-      <!-- Tab content end -->
-      <section class="gallery">
-        <div class="gallery-box">
-          <div class="gallery-title">
-            Some Gallery Title that I need to fix later
           </div>
-          <ul class="gallery-container">
-            <li class="gallery-item">sup dude</li>
-            <li class="gallery-item">sup dude</li>
-            <li class="gallery-item">sup dude</li>
-            <li class="gallery-item">sup dude</li>
-            <li class="gallery-item">sup dude</li>
-            <li class="gallery-item">sup dude</li>
-            <li class="gallery-item">sup dude</li>
-            <li class="gallery-item">sup dude</li>
-            <li class="gallery-item">sup dude</li>
-            <li class="gallery-item">sup dude</li>
-            <li class="gallery-item">sup dude</li>
-            <li class="gallery-item">centered link navigating to facebook</li>
-          </ul>
-        </div>
-      </section>
-    </main>
+        </section>
+  
+        <section class="about tab-content">
+          <div class="about-box">
+            <div class="about-title">
+              About Us
+            </div>
+            <div class="about-sub">
+              <div class="sub-desc">
+                We are currently working with people in the Greater Los Angeles area of California, Baja California, Ensenada, and neighboring areas.
+              </div>
+              <div class="sub-desc">
+                We have projects of food, clothing and toys for orphanages, as well as establishing senior centers for people who don’t have family or a place to live.
+              </div>
+            </div>
+            <ul class="about-list">
+              <li class="about-item left">
+                <img src="image-assets/hero-plant.jpeg">
+                <div class="item-desc">For I was hungry, and you fed me. I was thirsty, and you gave me a drink. I was a stranger, and you invited me into your home. I was naked, and you gave me clothing. I was sick, and you cared for me. I was in prison, and you visited me.</div>
+              </li>
+              <li class="about-item right">
+                <img src="image-assets/hero-plant.jpeg">
+                <div class="item-desc">Then these righteous ones will reply, ‘Lord, when did we ever see you hungry and feed you? Or thirsty and give you something to drink? Or a stranger and show you hospitality? Or naked and give you clothing? When did we ever see you sick or in prison and visit you?</div></li>
+              <li class="about-item left">
+                <img src="image-assets/hero-plant.jpeg">
+                <div class="item-desc">And the King will say, ‘I tell you the truth, when you did it to one of the least of these my brothers and sisters,you were doing it to me!’</div>
+              </li>
+            </ul>
+            <div class="facebook-btn">
+                <a href="" class="sm-btn">Check out our Facebook Page</a>
+              </div>
+          </div>
+        </section>
+        <!-- Tab content end -->
+  
+        <section class="gallery">
+          <div class="gallery-box">
+            <div class="gallery-title">
+              Some Gallery Title that I need to fix later
+            </div>
+            <ul class="gallery-container">
+              <li class="gallery-item">sup dude</li>
+              <li class="gallery-item">sup dude</li>
+              <li class="gallery-item">sup dude</li>
+              <li class="gallery-item">sup dude</li>
+              <li class="gallery-item">sup dude</li>
+              <li class="gallery-item">sup dude</li>
+              <li class="gallery-item">sup dude</li>
+              <li class="gallery-item">sup dude</li>
+              <li class="gallery-item">sup dude</li>
+              <li class="gallery-item">sup dude</li>
+              <li class="gallery-item">sup dude</li>
+              <li class="gallery-item">centered link navigating to facebook</li>
+            </ul>
+          </div>
+        </section>
+      </main>
+    </div>
+    <footer>
+      <div class="footer-box">
+        
+      </div>
+    </footer>
     <script src="javascript/index.js"></script>
   </body>
 </html>

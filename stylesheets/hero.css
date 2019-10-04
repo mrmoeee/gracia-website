@@ -1,3 +1,10 @@
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+body {
+  background: snow;
+}
+
 .hero {
   /* Sizing */
   height: 100vh;
@@ -28,9 +35,21 @@
 }
 
 .title-box {
-  margin-bottom: 0.5em;
+  margin-bottom: 1em;
 }
 
+.page-title {
+  font-family: 'Open Sans', sans-serif;
+  text-shadow: 5px 2px 1px black;
+  letter-spacing: .5rem;
+}
+/* when page is smaller fix letter spacing! */
+.page-desc {
+  font-family: 'Roboto', sans-serif;
+  text-shadow: 2px 1px 9px black;
+  letter-spacing: .2rem;
+}
+/* When page is smaller fix letter spacing! */
 .page-title, .page-desc {
   color: white;
   
@@ -42,4 +61,11 @@
 
 .desc-box .page-desc {
   font-size: 2em;
+}
+
+.global-content {
+  background: white;
+  width: 1024px;
+  padding: 20px;
+  margin: auto;
 }
