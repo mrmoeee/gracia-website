@@ -1,7 +1,7 @@
 .tab-links {
   display: flex;
   justify-content: space-around;
-  max-width: 80%;
+  width: 1024px;
   margin: 10px auto;
   border: 1px solid red;
   padding: 10px;

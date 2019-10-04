@@ -1,5 +1,5 @@
 .gallery {
-  width: 80%;
+  width: 1024px;
   margin: auto;
   text-align: center;
 }
@@ -10,8 +10,8 @@
 
 .gallery-container {
   display: grid;
-  grid-template-columns: 260px 260px 260px 260px;
-  grid-template-rows: 200px 200px 200px 200px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 200px 200px 200px;
   background-color: #2196f3;
   padding: 10px;
   grid-gap: 10px;
@@ -20,5 +20,8 @@
 .gallery-item {
   border: 1px solid blue;
   background-color: lightblue;
-  padding: 10px 0;
+  overflow: hidden;
+  margin: auto;
+  height: 100%;
+  width: 100%;
 }
