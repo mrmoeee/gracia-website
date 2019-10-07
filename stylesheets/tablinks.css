@@ -1,7 +1,6 @@
 /* font-family: 'Open Sans', sans-serif;
 font-family: 'Roboto', sans-serif; */
 
-
 .tab-links {
   display: flex;
   justify-content: space-between;
@@ -38,4 +37,11 @@ font-family: 'Roboto', sans-serif; */
 
 .tab-link-box > button:focus {
   outline: none;
+}
+
+.tab-link-box > button.active {
+  color: white;
+  background: #313A37;
+  transition: 0.5s;
+  transition-property: background;
 }
