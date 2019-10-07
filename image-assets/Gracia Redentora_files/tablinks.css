@@ -14,13 +14,6 @@ font-family: 'Roboto', sans-serif; */
   /* text-align: center; */
 }
 
-/* Have one button be active with LOOK HERE 
-  .active {
-    color: white;
-    background: #313A37;
-  }
-*/
-
 .tab-link-box > button {
   display: flex;
   justify-content: center;
