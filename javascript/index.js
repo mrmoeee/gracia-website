@@ -19,7 +19,6 @@ function show(event, tab) {
   // Show current tab that is clicked, and and active class to button that was clicked
   document.getElementById(tab).style.display = "flex";
   event.currentTarget.className = "tab-links active";
-  
 }
 
 
