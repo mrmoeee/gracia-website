@@ -1,24 +1,12 @@
-/* font-family: 'Open Sans', sans-serif;
-font-family: 'Roboto', sans-serif; */
-
 .tab-links {
   display: flex;
   justify-content: space-between;
   border: 1px solid grey;
-  /* border: 1px solid red; */
 }
 
 .tab-link-box {
   width: 100%;
-  /* text-align: center; */
 }
-
-/* Have one button be active with LOOK HERE 
-  .active {
-    color: white;
-    background: #313A37;
-  }
-*/
 
 .tab-link-box > button {
   display: flex;

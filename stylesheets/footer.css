@@ -1,10 +1,11 @@
 .footer {
   width: 100vw;
   height: 20vh;
-  background: #313A37;
+  background: linear-gradient(#353636, #046746);
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 
 .footer-text {
